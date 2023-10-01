@@ -74,6 +74,14 @@ section{
    text-transform: capitalize;
 }
 
+.head{
+   font-size: 2.5rem;
+   color:#fff;
+   margin-bottom: 2.5rem;
+   padding-bottom: 1.5rem;
+   text-transform: capitalize;
+}
+
 .inline-btn,
 .inline-option-btn,
 .inline-delete-btn,
