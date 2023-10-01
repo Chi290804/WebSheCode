@@ -5,7 +5,7 @@
    <meta charset="UTF-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>CHEESE</title>
+   <title>HANDS2U</title>
 
    <!-- font awesome cdn link  -->
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
@@ -21,7 +21,7 @@
 
       <section class="flex">
 
-         <a href="home.html" class="logo">CHEESE</a>
+         <a href="home.html" class="logo">HANDS2U</a>
 
          <form action="search.html" method="post" class="search-form">
             <input type="text" name="search_box" required placeholder="Tìm video " maxlength="100">
@@ -78,64 +78,22 @@
 
       <div class="video-container">
          <div class="video">
-            <video src="images/vid-1.mp4" controls poster="images/post-1-1.png" id="video"></video>
+            <video src="images/Cộng đồng khiếm thính - Ký hiệu bảng chữ cái Việt Nam.mp4" controls poster="images/Thumb1.jpg" id="video"></video>
          </div>
-         <h3 class="title">complete HTML tutorial (part 01)</h3>
+         <h3 class="title">Bảng chữ cái</h3>
          <div class="info">
             <p class="date"><i class="fas fa-calendar"></i><span>22-10-2022</span></p>
-            <p class="date"><i class="fas fa-heart"></i><span>44 likes</span></p>
+            <p class="date"><i class="fas fa-heart"></i><span>44 lượt thích</span></p>
          </div>
          <div class="tutor">
             <img src="images/pic-2.jpg" alt="">
-            <div>
-               <h3>john deo</h3>
-               <span>developer</span>
-            </div>
          </div>
          <form action="" method="post" class="flex">
-            <a href="playlist.html" class="inline-btn">view playlist</a>
-            <button><i class="far fa-heart"></i><span>like</span></button>
+            <a href="playlist.html" class="inline-btn">Xem video khác</a>
+            <button><i class="far fa-heart"></i><span>thích</span></button>
          </form>
-         <p class="description">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Itaque labore ratione, hic exercitationem mollitia
-            obcaecati culpa dolor placeat provident porro.
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquid iure autem non fugit sint. A, sequi rerum
-            architecto dolor fugiat illo, iure velit nihil laboriosam cupiditate voluptatum facere cumque nemo!
-         </p>
          <title>Facebook Comment</title>
          <title>Facebook Comment</title>
-         <style>
-            .comment-section {
-               margin-top: 20px;
-            }
-
-            .comment {
-               margin-bottom: 10px;
-            }
-
-            .comment .author {
-               font-weight: bold;
-            }
-
-            .comment .content {
-               margin-top: 5px;
-            }
-
-            .comment-form textarea {
-               width: 100%;
-               height: 80px;
-               margin-bottom: 10px;
-            }
-
-            .comment-form input[type="submit"] {
-               background-color: #4CAF50;
-               color: white;
-               border: none;
-               padding: 8px 16px;
-               text-decoration: none;
-               cursor: pointer;
-            }
-         </style>
          <script>
             function addComment() {
                var author = document.getElementById('author').value;
@@ -167,26 +125,35 @@
          </script>
 
          </style>
-         <div id="comment-section" class="comment-section">
-            <div class="comment">
-               <span class="author">John Doe</span>
-               <div class="content">This is the first comment.</div>
-            </div>
-            <div class="comment">
-               <span class="author">Jane Smith</span>
-               <div class="content">This is another comment.</div>
-            </div>
-         </div>
+   </section>
 
-         <div class="comment-form">
-            <textarea id="author" placeholder="Your name"></textarea>
-            <textarea id="content" placeholder="Your comment"></textarea>
-            <input type="submit" value="Add Comment" onclick="addComment()">
-         </div>
-      </div>
+   <section class="comments">
 
-      </div>
-
+      <h1 class="heading">1 bình luận</h1>
+   
+      <form action="" class="add-comment">
+         <h3>thêm bình luận</h3>
+         <textarea name="comment_box" placeholder="viết bình luận" required maxlength="1000" cols="30" rows="10"></textarea>
+         <input type="submit" value="add comment" class="inline-btn" name="add_comment">
+      </form>
+   
+      <h1 class="heading">Bình luận</h1>
+   
+      <div class="box-container">
+   
+         <div class="box">
+            <div class="user">
+               <img src="images/pic-1.jpg" alt="">
+               <div>
+                  <h3>Trúc Đặng</h3>
+                  <span>22-10-2022</span>
+               </div>
+            </div>xinh đẹp tuyệt vời, xin cảm ơn</div>
+            <form action="" class="flex-btn">
+               <input type="submit" value="edit comment" name="edit_comment" class="inline-option-btn">
+               <input type="submit" value="delete comment" name="delete_comment" class="inline-delete-btn">
+            </form>
+   
    </section>
 
    <script src="js/script.js"></script>
